@@ -112,11 +112,8 @@ input[type="file"]{
 }
 
 #result {
-    margin: auto;
     display: flex;
     width: 800px;
     height: 400px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: auto;
 }
