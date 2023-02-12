@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 
 def gpt3(code, comment):
-    openai.api_key = "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"
+    openai.api_key = #your OpenAI key
     response = openai.Completion.create(
         engine = "text-davinci-003",
         prompt = code + comment,
